@@ -7,7 +7,7 @@ document.getElementById('butao').addEventListener('click', () => {
     };
 
     //url de onde tá a api
-    fetch('http://localhost:3000/delnotes', {
+    fetch('https://planner-h18e.onrender.com/delnotes', {
         method: "DELETE",
         headers: {
             'Content-Type': 'application/json'
