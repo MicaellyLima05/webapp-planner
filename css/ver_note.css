@@ -1,0 +1,44 @@
+:root {
+    --cor-1: #FFC122;
+    --cor-2: #29C2B4;
+}
+
+body {
+    background-color: var(--cor-1);
+}
+
+@media only screen and (max-width: 720px) {
+    .elements {
+        display: flex;
+        flex-direction: column;
+        margin: 40% 5% 20% 5%;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .dia {
+        background-color: var(--cor-2);
+    }
+
+    .line {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .butao {
+        background-color: #29C2B4;
+        width: 30%;
+        padding: 2%;
+    }
+
+    .title {
+        font-size: 200%;
+        text-align: center;
+        text-align: center;
+        color: black;
+        width: 80%;
+        padding: 80% 0%;
+        background-color: var(--cor-2);
+    }
+}
