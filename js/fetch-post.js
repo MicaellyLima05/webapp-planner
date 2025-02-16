@@ -10,7 +10,7 @@ document.getElementById('elements').addEventListener('submit', function (evento)
     };
 
     //url de onde tá a api
-    fetch('http://localhost:3000/makenotes', {
+    fetch('https://planner-h18e.onrender.com/makenotes', {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
