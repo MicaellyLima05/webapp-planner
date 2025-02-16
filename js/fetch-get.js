@@ -4,7 +4,7 @@ document.getElementById('butao').addEventListener('click', () => {
 
     async function organizaURL(dia) {
 
-        const url = new URL('http://localhost:3000/shownotes');
+        const url = new URL('https://planner-h18e.onrender.com/shownotes');
         url.searchParams.append('dia', dia);
 
     try {
